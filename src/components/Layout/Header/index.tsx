@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <header className="lg:py-px py-5.5 px-4 lg:px-7.5 shadow-3xl font-Inter fixed top-0 w-full z-20">
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
-                <div className="flex space-y-5 lg:space-y-0 lg:items-center space-x-0 lg:space-x-2 flex-col lg:flex-row w-full lg:w-auto">
+                <div className="flex space-y-5 lg:space-y-0 lg:items-center space-x-0 lg:space-x-2 xl:space-x-5 flex-col lg:flex-row w-full lg:w-auto">
                     <LogoIcon />
                     <div className={`relative ${menuOpen ? "block" : "hidden"} lg:block `}>
                         <input
