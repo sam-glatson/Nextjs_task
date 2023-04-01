@@ -4,6 +4,8 @@ import Head from "next/head";
 
 const Layout = (props: any) => {
     const { title } = props;
+    const { children } = props;
+
     return (
         <>
             <Head>
@@ -13,6 +15,7 @@ const Layout = (props: any) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
+            {children}
         </>
     );
 };

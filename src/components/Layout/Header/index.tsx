@@ -4,7 +4,7 @@ import Menus from "./Menus";
 import NotificationIcon from "@/components/UI/NotificationIcon";
 import SearchIcon from "@/components/UI/SearchIcon";
 import JohnDeo from "@/public/assets/images/john-deo.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import DownArrowIcon from "@/components/UI/DownArrowIcon";
 import MenuIcon from "@/components/UI/MenuIcon";
 import CloseIcon from "@/components/UI/CloseIcon";
@@ -17,7 +17,7 @@ const Header = () => {
     };
 
     return (
-        <header className="lg:py-px py-5.5 px-4 lg:px-7.5 shadow-3xl font-Inter fixed top-0 w-full z-20">
+        <header className="lg:py-px py-5.5 px-4 lg:px-7.5 shadow-3xl font-Inter fixed top-0 w-full z-20 bg-white">
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
                 <div className="flex space-y-5 lg:space-y-0 lg:items-center space-x-0 lg:space-x-2 xl:space-x-5 flex-col lg:flex-row w-full lg:w-auto">
                     <LogoIcon />

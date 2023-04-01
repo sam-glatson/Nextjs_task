@@ -9,7 +9,15 @@
         @apply w-full lg:max-w-screen-xl mx-auto px-4;
     }
 
-    .menu-list >li {
+    .menu-list > li {
         @apply px-5 xl:px-10 2xl:px-46 py-5 rounded-20 hover:bg-alabaster-500 cursor-pointer flex items-center;
+    }
+
+    .dashboard-list > li {
+        @apply flex items-center space-x-6 py-5 px-7.5 hover:bg-alabaster-500 rounded-20 cursor-pointer;
+    }
+    
+    .dashboard-list > li >p {
+        @apply text-abbey-500 text-base leading-19 hover:font-bold font-normal;
     }
 }
