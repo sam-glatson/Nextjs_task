@@ -162,6 +162,8 @@ module.exports = {
                 32: "32px",
                 13: "13px",
                 100: "100px",
+                34: "34px",
+                35: "35px",
             },
             dropShadow: {
                 "4xl": "0px 3px 9px rgba(0, 0, 0, 0.17)",
@@ -175,6 +177,7 @@ module.exports = {
             space: {
                 6.5: "25px",
                 4.5: "9px",
+                24: "24px",
             },
             fontFamily: {
                 Inter: "Inter, sans-serif",

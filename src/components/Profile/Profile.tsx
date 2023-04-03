@@ -172,7 +172,7 @@ const Profile = () => {
                                 Preview Resume
                             </button>
                         </div>
-                        <div className="pt-[35px] px-[34px] space-y-[24px] flex flex-col">
+                        <div className="pt-35 px-34 space-y-24 flex flex-col">
                             <div className="space-y-4 pb-23 border-dashed border-b">
                                 <div className="flex justify-between items-center">
                                     <h3 className="text-shark-500 text-base leading-19 font-medium">Job Location</h3>

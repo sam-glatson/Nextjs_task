@@ -2,7 +2,6 @@ import React from "react";
 import SideBar from "./SideBar";
 import dynamic from "next/dynamic";
 import Profile from "./Profile";
-import RightSideContent from "./RightSideContent";
 
 // const Profile = dynamic(() => import("../Profile/Profile"), {
 //     loading: () => <p>Loading...</p>,
