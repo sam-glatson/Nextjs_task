@@ -13,10 +13,10 @@ const SideBar = () => {
         setSideBarOpen(!sideBarOpen);
     };
     return (
-        <section
-            className={`xl:w-1/5 lg:w-2/6 bg-white rounded-20  space-y-3 ${
-                sideBarOpen ? "w-full px-5.5 pt-8.5 pb-55" : "w-fit px-4 py-4"
-            } font-Inter select-none lg:h-[468px] lg:w-full lg:px-5.5 lg:pt-8.5 lg:pb-55`}
+        <aside
+            className={`lg:w-4/12 2xl:w-3/12 bg-white rounded-20 space-y-3 ${
+                sideBarOpen ? "px-5.5 pt-8.5 pb-55" : "w-fit px-4 py-4"
+            } font-Inter select-none h-fit lg:px-5.5 lg:pt-8.5 lg:pb-55 shadow-4xl`}
         >
             <span className="cursor-pointer" onClick={() => handelSidebarOpen()}>
                 <RightArrowIcon />
@@ -43,7 +43,7 @@ const SideBar = () => {
                     <p>Job Profile</p>
                 </li>
             </ul>
-        </section>
+        </aside>
     );
 };
 
