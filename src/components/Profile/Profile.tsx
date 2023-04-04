@@ -68,7 +68,7 @@ const Profile = () => {
                             </div>
                             <hr className="mt-7 border-athens-gray-500" />
                             <div className="flex flex-col sm:flex-row justify-between pt-6 space-y-4 sm:space-y-0">
-                                <div className="flex space-x-2.5 justify-normal">
+                                <div className="flex space-x-2.5">
                                     <span className="mt-1">
                                         <ClinicIcon />
                                     </span>
@@ -81,7 +81,7 @@ const Profile = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="flex space-x-2.5 justify-normal">
+                                <div className="flex space-x-2.5">
                                     <span className="mt-1">
                                         <ClinicIcon />
                                     </span>
