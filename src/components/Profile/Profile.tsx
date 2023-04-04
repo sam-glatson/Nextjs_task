@@ -168,7 +168,12 @@ const Profile = () => {
                             </span>
                             <Image src={ResumeImage} alt="Resume-image" width="93" height="93" />
                             <h3 className="text-white font-bold text-lg leading-29">Ready for your resume!</h3>
-                            <button className="rounded-14 px-5.5 py-3.5 bg-white text-elephant-500 font-bold text-sm leading-17 drop-shadow-4xl">
+                            <button
+                                className="rounded-14 px-5.5 py-3.5 bg-white text-elephant-500 font-bold text-sm leading-17 drop-shadow-4xl"
+                                id="resume"
+                                name="resume"
+                                type="button"
+                            >
                                 Preview Resume
                             </button>
                         </div>
