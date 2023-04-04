@@ -9,7 +9,7 @@ import Profile from "./Profile";
 
 const Index = () => {
     return (
-        <section className="px-4 lg:px-7.5 pt-120 pb-7.5 bg-alabaster-500 h-full space-x-0 lg:space-x-7 flex lg:flex-row flex-col w-full fixed font-Inter">
+        <section className="px-4 lg:px-7.5 pt-120 pb-7.5 space-y-2 lg:space-y-0 bg-alabaster-500 h-full space-x-0 lg:space-x-7 flex lg:flex-row flex-col w-full fixed font-Inter">
             <SideBar />
             <Profile />
         </section>
