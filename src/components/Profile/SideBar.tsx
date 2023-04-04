@@ -5,20 +5,22 @@ import SearchIcon from "../UI/SearchIcon";
 import MessageIcon from "../UI/MessageIcon";
 import LikeIcon from "../UI/FavoriteIcon";
 import JobProfileIcon from "../UI/JobProfileIcon";
+import Profile from "./Profile";
 
 const SideBar = () => {
     const [sideBarOpen, setSideBarOpen] = useState(false);
 
-    const handelSidebarOpen = () => {
+    const handelSidebarOpen = (props: any) => {
         setSideBarOpen(!sideBarOpen);
     };
+
     return (
         <aside
             className={`lg:w-4/12 2xl:w-3/12 bg-white rounded-20 space-y-3 ${
-                sideBarOpen ? "px-5.5 pt-8.5 pb-55" : "w-fit px-4 py-4"
+                sideBarOpen ? "px-5.5 py-5" : "w-fit px-4 py-4"
             } font-Inter select-none h-fit lg:px-5.5 lg:pt-8.5 lg:pb-55 shadow-4xl`}
         >
-            <span className="cursor-pointer" onClick={() => handelSidebarOpen()}>
+            <span className="cursor-pointer" onClick={() => handelSidebarOpen(sideBarOpen)}>
                 <RightArrowIcon />
             </span>
             <ul className={`${sideBarOpen ? "block" : "hidden"} lg:block dashboard-list`}>

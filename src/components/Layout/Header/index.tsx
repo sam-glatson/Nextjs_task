@@ -27,7 +27,7 @@ const Header = () => {
                             id="search"
                             placeholder="Search plusedin"
                             name="search"
-                            className="py-5 lg:pt-5.5 lg:pb-23 pl-12 bg-alabaster-500 pr-0 xl:pr-7 lg:border-0 outline-none rounded-20 w-full  lg:w-auto font-normal text-base leading-19 text-rolling-stone-500"
+                            className="py-5 lg:pt-5.5 pr-2.5 lg:pb-23 pl-12 bg-alabaster-500 xl:pr-7 lg:border-0 outline-none rounded-20 w-full  lg:w-auto font-normal text-base leading-19 text-rolling-stone-500"
                         />
                         <span className="absolute top-5 left-5">
                             <SearchIcon />

@@ -24,8 +24,8 @@ import EllipseSmallIcon from "../UI/EllipseSmallIcon";
 const Profile = () => {
     return (
         <>
-            <section className="w-full h-full pb-100">
-                <h1 className="font-bold text-2xl leading-29 mb-6.5 mt-3 sm:mt-0 text-masala-500">Profile</h1>
+            <section className="w-full min-h-[100px] pb-12">
+                <h1 className="font-bold text-2xl leading-29 mb-3 sm:mb-6.5 mt-3 sm:mt-0 text-masala-500">Profile</h1>
                 <div className="space-y-5 xl:space-y-0 space-x-0 xl:space-x-7 w-full overflow-y-auto overflow-x-hidden flex flex-col xl:flex-row h-full profile-scrollbar">
                     <div className="flex flex-col space-y-5 mb-5 xl:w-9/12 w-full">
                         <div className="bg-white w-full px-4 sm:pl-38 sm:pr-72 pt-6 pb-6.5 flex-col flex shadow-4xl">
@@ -88,7 +88,7 @@ const Profile = () => {
                                     <div className="space-y-4.5">
                                         <p className="font-normal text-sm leading-25 text-storm-gray-500 flex items-center">
                                             Primary specialty
-                                            <span className="ml-2.5 cursor-pointer">
+                                            <span className="ml-3.5 cursor-pointer">
                                                 <EditIcon />
                                             </span>
                                         </p>
@@ -102,19 +102,21 @@ const Profile = () => {
                         <div className="bg-white w-full rounded-20 px-4 sm:px-38 pt-6.5 pb-52 flex-col flex space-y-10 sm:space-y-12 shadow-4xl">
                             <div className="flex space-x-4 items-center sm:justify-normal justify-center">
                                 <SummaryIcon />
-                                <h2 className="font-medium text-base leading-19">Professional Summary</h2>
+                                <h2 className="font-medium text-base leading-19 text-shark-550">
+                                    Professional Summary
+                                </h2>
                             </div>
                             <div className="flex space-x-4 justify-between">
                                 <p className="font-normal text-sm leading-25 text-storm-gray-500 basis-5/6">
                                     It is a long established fact that a reader will be distracted by the readable
                                     content It is a long established fact that a reader will be distracted.
                                 </p>
-                                <span className="bg-alabaster-500 rounded-full w-9 shrink-0 h-9 flex justify-center items-center sm:ml-6.5 cursor-pointer">
+                                <span className="bg-alabaster-500 hover:bg-alabaster-600 rounded-full w-9 shrink-0 h-9 flex justify-center items-center sm:ml-6.5 cursor-pointer">
                                     <EditIcon />
                                 </span>
                             </div>
                         </div>
-                        <div className="bg-white pt-26 text-shark-500 px-4 sm:px-38 pb-32 rounded-20 shadow-4xl">
+                        <div className="bg-white pt-26 text-shark-550 px-4 sm:px-38 pb-32 rounded-20 shadow-4xl">
                             <div className="flex space-x-4 items-center sm:justify-normal justify-center">
                                 <GroupsIcon />
                                 <h2 className="font-medium text-base leading-19">Experience Type</h2>
@@ -133,7 +135,7 @@ const Profile = () => {
                                 <div className="mt-21 grid grid-cols-1 min-[425px]:grid-cols-2 min-[425px]:justify-items-start gap-4 space-y-5 min-[425px]:space-y-0 2xl:grid-cols-4 items-center">
                                     <div>
                                         <h3 className="font-medium text-sm leading-17">NCLH Exam Type</h3>
-                                        <h6 className="mt-3.5 py-2.5 px-2.5 font-normal text-sm leading-17 rounded-10 text-storm-gray-500">
+                                        <h6 className="mt-3.5 py-2.5 pr-2.5 font-normal text-sm leading-17 rounded-10 text-storm-gray-500">
                                             NCLH RN
                                         </h6>
                                     </div>
@@ -150,7 +152,7 @@ const Profile = () => {
                                         </div>
                                     </div>
                                     <div className="w-full flex xl:justify-end justify-start">
-                                        <span className="bg-alabaster-500 rounded-full w-9 h-9 flex justify-center items-center cursor-pointer">
+                                        <span className="bg-alabaster-500 hover:bg-alabaster-600 rounded-full w-9 h-9 flex justify-center items-center cursor-pointer">
                                             <EditIcon />
                                         </span>
                                     </div>
@@ -158,7 +160,7 @@ const Profile = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full xl:w-3/12 bg-white lg:pb-8 flex flex-col h-fit">
+                    <div className="w-full xl:w-3/12 bg-white pb-8 flex flex-col h-fit">
                         <div className="profile-resume-gradient h-[292px] w-full flex items-center justify-center space-y-3 flex-col px-3 text-center relative">
                             <span className="absolute top-1/4 left-3">
                                 <SquareIcon width={25} height={25} />
@@ -177,10 +179,10 @@ const Profile = () => {
                                 Preview Resume
                             </button>
                         </div>
-                        <div className="pt-35 px-34 space-y-24 flex flex-col">
+                        <div className="pt-35 xl:px-5 px-34 2xl:px-34 space-y-24 flex flex-col">
                             <div className="space-y-4 pb-23 border-dashed border-b">
                                 <div className="flex justify-between items-center">
-                                    <h3 className="text-shark-500 text-base leading-19 font-medium">Job Location</h3>
+                                    <h3 className="text-shark-550 text-base leading-19 font-medium">Job Location</h3>
                                     <span className="cursor-pointer">
                                         <EditIcon />
                                     </span>
@@ -212,12 +214,12 @@ const Profile = () => {
                             </div>
                             <div className="space-y-4 pb-23 border-dashed border-b">
                                 <div className="flex justify-between items-center">
-                                    <h3 className="text-shark-500 text-base leading-19 font-medium">Job Search Type</h3>
+                                    <h3 className="text-shark-550 text-base leading-19 font-medium">Job Search Type</h3>
                                     <span className="cursor-pointer">
                                         <EditIcon />
                                     </span>
                                 </div>
-                                <div className="flex items-center space-x-3.5 text-sm leading-17 text-storm-gray-500">
+                                <div className="flex items-center space-x-3.5 text-sm leading-17 text-storm-gray-500 shrink-0">
                                     <Image
                                         src={JobImage}
                                         alt="job-image"
@@ -232,7 +234,7 @@ const Profile = () => {
                             </div>
                             <div className="space-y-4 pb-23 border-dashed border-b">
                                 <div className="flex justify-between items-center">
-                                    <h3 className="text-shark-500 text-base leading-19 font-medium">
+                                    <h3 className="text-shark-550 text-base leading-19 font-medium">
                                         Travel Nursing Type
                                     </h3>
                                     <span className="cursor-pointer">
@@ -252,7 +254,7 @@ const Profile = () => {
                             </div>
                             <div className="space-y-8">
                                 <div className="flex justify-between items-center">
-                                    <h3 className="text-shark-500 text-base leading-19 font-medium">Preferable Work</h3>
+                                    <h3 className="text-shark-550 text-base leading-19 font-medium">Preferable Work</h3>
                                     <span className="cursor-pointer">
                                         <EditIcon />
                                     </span>

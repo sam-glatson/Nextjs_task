@@ -6,6 +6,7 @@ import React from "react";
 
 const Menus = (props: any) => {
     const { menuOpen } = props;
+
     return (
         <ul
             className={`menu-list lg:flex ${
