@@ -23,7 +23,7 @@ const SideBar = () => {
             <span className="cursor-pointer" onClick={() => handelSidebarOpen(sideBarOpen)}>
                 <RightArrowIcon />
             </span>
-            <ul className={`${sideBarOpen ? "block" : "hidden"} lg:block dashboard-list`}>
+            <ul className={`${sideBarOpen ? "block" : "hidden"} lg:block dashboard-list space-y-3`}>
                 <li>
                     <DashboardIcon />
                     <p>Dashboard</p>

@@ -185,6 +185,7 @@ module.exports = {
             },
             fontSize: {
                 15: ["15px", "18px"],
+                26: ["26px", "31px"],
             },
             lineHeight: {
                 19: "19px",
@@ -201,6 +202,11 @@ module.exports = {
             },
             fontSize: {
                 "10xl": "1.563rem",
+                "11xl": "26px",
+            },
+            width: {
+                "2/4": "30%",
+                "3/4": "70%",
             },
         },
     },
