@@ -7,7 +7,7 @@ import Profile from "./Profile";
 //     loading: () => <p>Loading...</p>,
 // });
 
-const Index = () => {
+const ProfileSection = () => {
     return (
         <section className="px-4 lg:px-7.5 pt-100 sm:pt-120 pb-7.5 space-y-2 lg:space-y-0 bg-alabaster-500 h-full space-x-0 lg:space-x-7 flex lg:flex-row flex-col w-full fixed font-Inter">
             <SideBar />
@@ -16,4 +16,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default ProfileSection;
