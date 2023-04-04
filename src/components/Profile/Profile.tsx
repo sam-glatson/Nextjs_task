@@ -177,7 +177,7 @@ const Profile = () => {
                     <div className="pt-35 xl:px-5 px-34 2xl:px-34 space-y-24 flex flex-col">
                         <div className="space-y-4 pb-23 border-dashed border-b">
                             <div className="flex justify-between items-center">
-                                <h3 className="text-shark-550 text-base leading-19 font-medium">Job Location</h3>
+                                <h3 className="text-shark-550 text-base leading-19 mb-2.5 font-medium">Job Location</h3>
                                 <span className="cursor-pointer">
                                     <EditIcon />
                                 </span>
@@ -207,7 +207,9 @@ const Profile = () => {
                         </div>
                         <div className="space-y-4 pb-23 border-dashed border-b">
                             <div className="flex justify-between items-center">
-                                <h3 className="text-shark-550 text-base leading-19 font-medium">Job Search Type</h3>
+                                <h3 className="text-shark-550 text-base leading-19 font-medium mb-2.5">
+                                    Job Search Type
+                                </h3>
                                 <span className="cursor-pointer">
                                     <EditIcon />
                                 </span>
@@ -221,7 +223,9 @@ const Profile = () => {
                         </div>
                         <div className="space-y-4 pb-23 border-dashed border-b">
                             <div className="flex justify-between items-center">
-                                <h3 className="text-shark-550 text-base leading-19 font-medium">Travel Nursing Type</h3>
+                                <h3 className="text-shark-550 text-base leading-19 font-medium mb-2.5">
+                                    Travel Nursing Type
+                                </h3>
                                 <span className="cursor-pointer">
                                     <EditIcon />
                                 </span>
@@ -239,7 +243,9 @@ const Profile = () => {
                         </div>
                         <div className="space-y-8">
                             <div className="flex justify-between items-center">
-                                <h3 className="text-shark-550 text-base leading-19 font-medium">Preferable Work</h3>
+                                <h3 className="text-shark-550 text-base leading-19 font-medium mb-1.5">
+                                    Preferable Work
+                                </h3>
                                 <span className="cursor-pointer">
                                     <EditIcon />
                                 </span>
