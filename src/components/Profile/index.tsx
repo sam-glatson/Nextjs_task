@@ -1,6 +1,6 @@
 import React from "react";
 import SideBar from "./SideBar";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import Profile from "./Profile";
 
 // const Profile = dynamic(() => import("../Profile/Profile"), {

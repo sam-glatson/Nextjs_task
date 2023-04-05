@@ -35,7 +35,11 @@ const Header = () => {
                     </div>
                 </div>
                 <Menus menuOpen={menuOpen} />
-                <div className="flex items-start lg:items-center space-y-3 lg:space-y-0 space-x-2 2xl:space-x-5 lg:flex-row flex-col w-full lg:w-auto">
+                <div
+                    className={`flex items-start lg:items-center space-y-3 ${
+                        menuOpen ? "mt-2.5" : "mt-0"
+                    } lg:space-y-0 space-x-2 2xl:space-x-5 lg:flex-row flex-col w-full lg:w-auto`}
+                >
                     <div
                         className={`bg-alabaster-500 py-2 lg:pb-2.5 lg:pt-11 pl-5 rounded-20 ${
                             menuOpen ? "block" : "hidden "

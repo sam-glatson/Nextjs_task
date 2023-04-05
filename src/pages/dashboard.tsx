@@ -4,7 +4,7 @@ import Profile from "@/components/Profile";
 
 const Dashboard = () => {
     return (
-        <Layout title="Pulsedin | Home">
+        <Layout title="Plusedin | Home">
             <Profile />
         </Layout>
     );

@@ -9,7 +9,7 @@
         @apply w-full lg:max-w-screen-xl mx-auto px-4;
     }
 
-    .menu-list > li {
+    .menu-list > li >a {
         @apply px-5 xl:px-10 2xl:px-46 py-5 rounded-20 hover:bg-alabaster-500 cursor-pointer flex items-center;
     }
 
@@ -20,8 +20,12 @@
     .dashboard-list > li >p {
         @apply text-abbey-500 text-base leading-19 hover:font-bold font-normal;
     }
-}
 
+    .profile-tab >li {
+        @apply text-tundora-400 hover:text-woodsmoke-800 text-sm leading-17 font-semibold cursor-pointer px-1 py-2;
+    }
+}
+ 
 .profile-resume-gradient {
     background: linear-gradient(108.95deg, rgba(196, 125, 251, 0.8) 8.64%, rgba(4, 105, 255, 0.8) 133.87%), #16BFFF;
 }
