@@ -4,7 +4,7 @@ import EditIcon from "@/components/UI/EditIcon";
 
 const Tab = () => {
     return (
-        <div className="mt-14 ml-7 flex justify-center sm:justify-between items-center pb-6">
+        <div className=" ml-7 flex justify-center sm:justify-between items-center ">
             <ul className="flex space-x-14 profile-tab">
                 <li>Post</li>
                 <li>About</li>

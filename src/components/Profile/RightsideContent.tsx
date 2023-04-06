@@ -9,7 +9,6 @@ import HomeImage from "@/public/assets/images/home-image.png";
 import EllipseSmallIcon from "../UI/EllipseSmallIcon";
 import ResumeImage from "@/public/assets/images/resume-image.png";
 import Image from "next/legacy/image";
-import LocationIcon from "../UI/LocationIcon";
 import EditIcon from "../UI/EditIcon";
 
 const RightsideContent = () => {

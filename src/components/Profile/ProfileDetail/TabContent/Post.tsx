@@ -1,11 +1,13 @@
 import React from "react";
+import InfoSection from "./infosection";
+import CreatePost from "./createpost";
 
 const Post = () => {
     return (
-        <section className="container ">
-            <div className="bg-white rounded-20 pl-9 pr-[62px] pt-[33px] pb-[74px]">
-                <h3>Info</h3>
-                <hr />
+        <section className="container pt-6 space-y-5">
+            <div className="space-y-3 lg:space-y-0 lg:space-x-8 flex lg:flex-row flex-col ">
+                <InfoSection />
+                <CreatePost />
             </div>
         </section>
     );

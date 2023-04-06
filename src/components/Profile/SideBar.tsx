@@ -5,7 +5,6 @@ import SearchIcon from "../UI/SearchIcon";
 import MessageIcon from "../UI/MessageIcon";
 import LikeIcon from "../UI/FavoriteIcon";
 import JobProfileIcon from "../UI/JobProfileIcon";
-import Profile from "./Profile";
 
 const SideBar = () => {
     const [sideBarOpen, setSideBarOpen] = useState(false);

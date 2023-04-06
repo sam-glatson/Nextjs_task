@@ -209,11 +209,24 @@ module.exports = {
                     800: "#2d2c2c",
                     900: "#252424",
                 },
+                "black-squeeze": {
+                    50: "#feffff",
+                    100: "#fefefe",
+                    200: "#fcfefe",
+                    300: "#fbfdfd",
+                    400: "#f7fbfb",
+                    500: "#f4f9f9",
+                    600: "#dce0e0",
+                    700: "#b7bbbb",
+                    800: "#929595",
+                    900: "#787a7a",
+                },
             },
             boxShadow: {
                 "3xl": "0px 3px 10px rgba(32, 165, 207, 0.1)",
                 "4xl": "0px 2px 8px rgba(32, 165, 207, 0.18)",
                 "5xl": " 0px 4px 10px rgba(0, 0, 0, 0.1)",
+                "6xl": "0px 1px 12px rgba(0, 0, 0, 0.059)",
             },
             padding: {
                 9: "9px",
@@ -247,6 +260,7 @@ module.exports = {
                 11: "11px",
                 5.5: "22px",
                 21: "21px",
+                6.5: "27px",
             },
             space: {
                 6.5: "25px",
