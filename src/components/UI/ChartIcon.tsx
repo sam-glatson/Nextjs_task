@@ -3,7 +3,7 @@ import React from "react";
 const ChartIcon = () => {
     return (
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_3063_381)">
+            <g clipPath="url(#clip0_3063_381)">
                 <path
                     d="M18 2.92009V1.24138C18 0.555832 17.4442 0 16.7586 0H1.24138C0.555832 0 0 0.555832 0 1.24138V16.7586C0 17.4442 0.555832 18 1.24138 18H4.28618C6.30676 16.8611 8.19913 15.5085 9.93103 13.9655C13.3673 10.8919 16.1167 7.12823 18 2.92009Z"
                     fill="#ECEFF1"
