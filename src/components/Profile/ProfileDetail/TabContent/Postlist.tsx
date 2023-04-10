@@ -14,7 +14,7 @@ const PostList = () => {
                     <PostHeader />
                     <p>It is a long established fact that a reader will be distracted by</p>
                     <div className="space-y-2">
-                        <div className="grid grid-cols-2 gap-[7px] mt-5">
+                        <div className="grid grid-cols-2 gap-2 mt-5">
                             <Image
                                 src={WomenImage}
                                 alt="woman In Sick"
