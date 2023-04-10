@@ -10,8 +10,8 @@ import Pollistselected from "./Pollistselected";
 
 const CreatePost = () => {
     return (
-        <div className="w-full lg:w-3/5 space-y-5 ">
-            <div className="bg-white rounded-20  px-6 pt-33 pb-5 shadow-4xl space-y-4">
+        <div className="w-full lg:w-3/5 space-y-5">
+            <div className="bg-white rounded-20 px-6 pt-33 pb-5 shadow-4xl space-y-4">
                 <div className="flex space-x-2.5 items-center flex-row">
                     <Image src={JohnDeo} alt="JohnDeo" width="47" height="47" className="shrink-0 object-cover" />
                     <input
