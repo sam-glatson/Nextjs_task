@@ -37,3 +37,7 @@
     -ms-overflow-style: none; 
     scrollbar-width: none;  
 }
+
+.pollselection-gradient {
+  background:   linear-gradient(180deg, #16BFFF 0%, #16DFFF 100%), #F1F1F1;
+}

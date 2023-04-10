@@ -1,8 +1,5 @@
 import React from "react";
 import JohnDeo from "@/public/assets/images/john-deo.png";
-import WomenImage from "@/public/assets/images/woman-image.png";
-import CoughImage from "@/public/assets/images/cough-image.png";
-import FeverImage from "@/public/assets/images/fever-image.png";
 import Image from "next/image";
 import VerifiedIcon from "@/components/UI/VerifiedIcon";
 import SettingsIcon from "@/components/UI/SettingsIcon";
@@ -12,15 +9,17 @@ import DotIcon from "@/components/UI/DotIcon";
 import HeartIcon from "@/components/UI/HeartIcon";
 import CommantIcon from "@/components/UI/CommantIcon";
 import ShareIcon from "@/components/UI/ShareIcon";
+import RightSmallIcon from "@/components/UI/RightSmallIcon";
+import PollIcon from "@/components/UI/PollIcon";
 
-const PostList = () => {
+const Pollist = () => {
     return (
-        <div className="bg-white rounded-20 shadow-4xl pt-33">
-            <div className="px-2 sm:px-36">
+        <div className="bg-white rounded-20 shadow-4xl pt-[33px] ">
+            <div className="px-2 sm:px-[36px]">
                 <div className="space-y-4">
-                    <div className="space-y-1 sm:space-y-2">
-                        <div className="flex justify-between">
-                            <div className="flex items-center flex-row sm:space-x-4 basis-full">
+                    <div className="space-y-2">
+                        <div className="flex justify-between ">
+                            <div className="flex items-start sm:items-center flex-row sm:space-x-4 basis-full	">
                                 <div className="border-[3px] border-white rounded-full shadow-6xl">
                                     <Image
                                         src={JohnDeo}
@@ -30,16 +29,20 @@ const PostList = () => {
                                         className="shrink-0 sm:w-[66px] w-14 object-cover"
                                     />
                                 </div>
-                                <div className="space-y-2.5 sm:ml-3.5 ml-1">
-                                    <div className="flex space-x-2 items-center">
-                                        <h3 className=" font-bold text-lg leading-[22px]">John Deo</h3>
-                                        <span>
+                                <div className="space-y-2.5">
+                                    <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:items-center ml-2 sm:space-x-3">
+                                        <div className="flex items-center space-x-3">
+                                            <h3 className="font-bold text-base sm:text-lg">John Deo</h3>
                                             <VerifiedIcon />
-                                        </span>
+                                        </div>
+                                        <div className="flex items-center space-x-3">
+                                            <RightSmallIcon />
+                                            <h3 className="font-bold text-base sm:text-lg">Physician World</h3>
+                                        </div>
                                     </div>
                                     <div className="flex min-[370px]:space-y-1 min-[370px]:space-x-4 space-x-2 items-center flex-row ">
                                         <div className=" bg-black-squeeze-500 rounded-14 py-2 px-2 sm:px-4">
-                                            <p className=" text-sm leading-17 text-outer-space-500">Neurologist</p>
+                                            <p className="text-sm leading-17 text-outer-space-500">Neurologist</p>
                                         </div>
                                         <span className="flex items-center space-x-1.5">
                                             <div>
@@ -55,18 +58,30 @@ const PostList = () => {
                             </span>
                         </div>
                     </div>
-                    <p>It is a long established fact that a reader will be distracted by</p>
-                    <div className="space-y-2">
-                        <div className="grid grid-cols-2 gap-[7px]">
-                            <Image
-                                src={WomenImage}
-                                alt="woman In Sick"
-                                className="object-cover w-full h-full"
-                                height="191"
-                            />
-                            <Image src={CoughImage} alt="boy In Sick" className="object-cover w-full" height="191" />
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout?
+                    </p>
+                    <div className="space-y-4">
+                        <div className="bg-tundora-50  py-4 px-7.5 flex space-x-5 items-center">
+                            <span>
+                                <PollIcon />
+                            </span>
+                            <p className="text-outer-space-500 font-normal text-lg leading-[22px]">
+                                Polls ends in 2 days
+                            </p>
                         </div>
-                        <Image src={FeverImage} alt="fever" className="object-cover" />
+                        <div className="space-y-4 mx-5">
+                            <div className="border py-4.5 px-7.5 rounded-10 text-elephant-500 font-normal text-base leading-19">
+                                Option A
+                            </div>
+                            <div className="border py-4.5 px-7.5 rounded-10 text-elephant-500 font-normal text-base leading-19">
+                                Option B
+                            </div>
+                            <div className="border py-4.5 px-7.5 rounded-10 text-elephant-500 font-normal text-base leading-19">
+                                Option C
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,19 +100,19 @@ const PostList = () => {
             </div>
             <hr className="mt-2.5" />
             <div className="flex justify-center flex-row">
-                <div className="flex items-center space-x-2 sm:space-x-3 border-r py-3 sm:py-[24px] px-2.5 sm:px-16">
+                <div className="flex items-center space-x-1 sm:space-x-3  border-r py-3 sm:py-[24px] px-2.5 sm:px-16">
                     <div>
                         <HeartIcon />
                     </div>
                     <h5 className="text-sm leading-17 text-mine-shaft-500 font-semibold">Beat</h5>
                 </div>
-                <div className="flex items-center space-x-2 sm:space-x-3 border-r py-3 sm:py-[24px] px-2.5 sm:px-16">
+                <div className="flex items-center space-x-1 sm:space-x-3 border-r py-3 sm:py-[24px] px-2.5 sm:px-16">
                     <div>
                         <CommantIcon />
                     </div>
                     <h5 className="text-sm leading-17 text-spun-pearl-500 font-normal">Comment</h5>
                 </div>
-                <div className="flex items-center space-x-2 sm:space-x-3  py-3 sm:py-[24px] px-2.5 sm:px-16">
+                <div className="flex items-center space-x-1 sm:space-x-3  py-3 sm:py-[24px] px-2.5 sm:px-16">
                     <div>
                         <ShareIcon />
                     </div>
@@ -108,4 +123,4 @@ const PostList = () => {
     );
 };
 
-export default PostList;
+export default Pollist;

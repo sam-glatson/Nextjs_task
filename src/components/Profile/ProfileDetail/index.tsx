@@ -11,17 +11,11 @@ const ProfileDetailSection = () => {
                 <div className="pt-100 font-Inter container bg-white">
                     <Banner />
                 </div>
-                <div className="sticky top-[90px] py-5 bg-white z-10">
-                    <div className="container">
-                        <Tab />
-                    </div>
+                <div className="sticky top-[89px] py-5 bg-white z-10">
+                    <Tab />
                 </div>
-                <div>
-                    <div className="bg-alabaster-500 ">
-                        <div className="container px-0">
-                            <Post />
-                        </div>
-                    </div>
+                <div className="bg-alabaster-500 ">
+                    <Post />
                 </div>
             </section>
         </>
