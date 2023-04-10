@@ -26,7 +26,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="relative md:left-7 flex flex-col md:flex-row items-center sm:space-x-12">
-                <div className="p-[5px] rounded-full -mt-5 md:-mt-6 bg-white w-auto shadow-5xl relative">
+                <div className="p-1 rounded-full -mt-5 md:-mt-6 bg-white w-auto shadow-5xl relative">
                     <Image
                         src={JohnDeoImage}
                         width="224"
@@ -34,9 +34,8 @@ const Banner = () => {
                         className="object-cover md:w-[224px] w-[150px] rounded-full"
                         alt="john deo"
                     />
-
                     <div className="absolute -right-2.5 top-[70%] md:right-3 md:top-3/4 bg-white p-[2px] rounded-full">
-                        <div className=" bg-gallery-500 hover:bg-gallery-600 p-3.5 rounded-full cursor-pointer ">
+                        <div className="bg-gallery-500 hover:bg-gallery-600 p-3.5 rounded-full cursor-pointer ">
                             <CameraIcon />
                         </div>
                     </div>

@@ -14,7 +14,7 @@ const ProfileDetailSection = () => {
                 <div className="sticky top-[89px] py-5 bg-white z-10">
                     <Tab />
                 </div>
-                <div className="bg-alabaster-500 ">
+                <div className="bg-alabaster-500">
                     <Post />
                 </div>
             </section>
