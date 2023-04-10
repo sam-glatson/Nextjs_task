@@ -7,8 +7,8 @@ const Pollist = () => {
     const [des, setDes] = useState("Physician World");
 
     return (
-        <div className="bg-white rounded-20 shadow-4xl pt-[33px] ">
-            <div className="px-2 sm:px-[36px]">
+        <div className="bg-white rounded-20 shadow-4xl pt-33">
+            <div className="px-2 sm:px-9">
                 <div className="space-y-4">
                     <div className="space-y-2">
                         <PostHeader description={des} />
