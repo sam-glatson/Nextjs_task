@@ -6,8 +6,8 @@ import AboutContent from "./TabContent/AboutContent";
 
 const ProfileDetailSection = () => {
     const [TabContent, setTabContent] = useState(1);
-    function CallBack(chilData: any) {
-        setTabContent(chilData);
+    function CallBack(childData: any) {
+        setTabContent(childData);
     }
     return (
         <>

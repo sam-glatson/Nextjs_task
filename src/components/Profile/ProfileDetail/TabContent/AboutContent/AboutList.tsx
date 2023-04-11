@@ -20,7 +20,7 @@ const AboutList = () => {
                 <h3 className="font-bold text-lg leading-5 ml-6 text-masala-500">About</h3>
                 <hr />
             </div>
-            <div className="space-y-2.5">
+            <div className="space-y-2.5 mt-9">
                 <div className="flex items-center space-x-4 cursor-pointer py-3 px-4 about-gradient text-white">
                     <div>
                         <SummaryIcon fill={"ffffff"} width={24} />
