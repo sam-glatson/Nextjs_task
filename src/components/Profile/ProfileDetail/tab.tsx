@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SettingsIcon from "@/components/UI/SettingsIcon";
 import EditIcon from "@/components/UI/EditIcon";
-import Link from "next/link";
 
 const Tab = (props: any) => {
     const [post, setPost] = useState(1);
