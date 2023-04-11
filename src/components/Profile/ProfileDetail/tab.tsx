@@ -5,12 +5,26 @@ import EditIcon from "@/components/UI/EditIcon";
 const Tab = (props: any) => {
     const [post, setPost] = useState(1);
     const [about, setAbout] = useState(2);
+    const { value } = props;
     return (
         <div className="container flex justify-center sm:justify-between items-center">
-            <ul className="flex space-x-14 profile-tab">
-                <li onClick={() => props.handelCallback(post)}>Post</li>
-                <li onClick={() => props.handelCallback(about)}>About</li>
-                <li>Friends</li>
+            <ul className="flex profile-tab space-x-3">
+                <div className="relative py-5 px-5">
+                    <li onClick={() => props.handelCallback(post)}>Post </li>
+                    {value == 1 ? (
+                        <div className="h-[3px] left-0 bg-picton-blue-500 absolute w-full bottom-0"></div>
+                    ) : null}
+                </div>
+                <div className="relative py-5 px-5">
+                    <li onClick={() => props.handelCallback(about)}>About </li>
+                    {value == 2 ? (
+                        <div className="h-[3px] left-0 bg-picton-blue-500 absolute w-full bottom-0"></div>
+                    ) : null}
+                </div>
+                <div className="relative py-5 px-5">
+                    <li>Friends</li>
+                    {/* <div className="h-[3px] left-0 bg-picton-blue-500 absolute w-full bottom-0"></div> */}
+                </div>
             </ul>
             <div className="items-center space-x-7 sm:flex hidden">
                 <button

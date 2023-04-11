@@ -17,7 +17,7 @@ const Banner = () => {
                     alt="Profile Background"
                     className="object-cover w-full rounded-21 object-top"
                 />
-                <div className="flex w-fit cursor-pointer flex-row items-center bg-white space-x-2.5 absolute right-3 bottom-3 sm:bottom-[30px] sm:right-[35px] py-1.5 px-2 sm:px-3 sm:py-3 rounded-lg">
+                <div className="flex w-fit cursor-pointer flex-row items-center bg-white space-x-2.5 absolute right-3 bottom-3 sm:bottom-7.5 sm:right-8.5 py-1.5 px-2 sm:px-3 sm:py-3 rounded-lg">
                     <CameraIcon />
                     <p className="sm:block hidden font-normal text-sm leading-17 text-mine-shaft-500">
                         Edit cover photo
@@ -33,7 +33,7 @@ const Banner = () => {
                         className="object-cover md:w-[224px] w-[150px] rounded-full"
                         alt="john deo"
                     />
-                    <div className="absolute -right-2.5 top-[70%] md:right-3 md:top-3/4 bg-white p-[2px] rounded-full">
+                    <div className="absolute -right-2.5 top-2/5 md:right-3 md:top-3/4 bg-white p-0.5 rounded-full">
                         <div className="bg-gallery-500 hover:bg-gallery-600 p-3.5 rounded-full cursor-pointer ">
                             <CameraIcon />
                         </div>
@@ -41,7 +41,7 @@ const Banner = () => {
                 </div>
                 <div className="basis-3/5 space-y-4 text-center mt-2.5 md:text-left">
                     <div className="flex items-center space-x-4 justify-center md:justify-normal">
-                        <h3 className=" font-extrabold text-2xl leading-29 text-mine-shaft-500">John Deo</h3>
+                        <h3 className="font-extrabold text-2xl leading-29 text-mine-shaft-500">John Deo</h3>
                         <VerifiedIcon />
                     </div>
                     <p className="text-waterloo--500 text-lg leading-27">

@@ -351,6 +351,7 @@ module.exports = {
                 16.5: "70px",
                 36: "36px",
                 27: "27px",
+                0.5: "2px",
             },
             dropShadow: {
                 "4xl": "0px 3px 9px rgba(0, 0, 0, 0.17)",
@@ -410,6 +411,11 @@ module.exports = {
             },
             zIndex: {
                 1: "1",
+            },
+            spacing: {
+                "2/5": "70%",
+                7.5: "30px",
+                8.5: "35px",
             },
         },
     },

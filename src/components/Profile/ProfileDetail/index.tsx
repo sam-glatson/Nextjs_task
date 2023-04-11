@@ -10,20 +10,18 @@ const ProfileDetailSection = () => {
         setTabContent(childData);
     }
     return (
-        <>
-            <section className="font-Inter">
-                <div className="pt-100 font-Inter container bg-white">
-                    <Banner />
-                </div>
-                <div className="sticky top-[89px] py-5 bg-white z-10">
-                    <Tab handelCallback={CallBack} />
-                </div>
-                <div className="bg-alabaster-500">
-                    {TabContent == 1 ? <Post /> : null}
-                    {TabContent == 2 ? <AboutContent /> : null}
-                </div>
-            </section>
-        </>
+        <section className="font-Inter">
+            <div className="pt-100 font-Inter container bg-white">
+                <Banner />
+            </div>
+            <div className="sticky top-[89px] bg-white z-10">
+                <Tab handelCallback={CallBack} value={TabContent} />
+            </div>
+            <div className="bg-alabaster-500">
+                {TabContent == 1 ? <Post /> : null}
+                {TabContent == 2 ? <AboutContent /> : null}
+            </div>
+        </section>
     );
 };
 

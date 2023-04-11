@@ -8,7 +8,7 @@ const Pollist = () => {
 
     return (
         <div className="bg-white rounded-20 shadow-4xl pt-33">
-            <div className="px-2 sm:px-9">
+            <div className="px-2 sm:px-6">
                 <div className="space-y-4">
                     <div className="space-y-2">
                         <PostHeader description={des} />
@@ -19,9 +19,9 @@ const Pollist = () => {
                     </p>
                     <div className="space-y-4">
                         <div className="bg-tundora-50 py-4 px-7.5 flex space-x-5 items-center">
-                            <span>
+                            <div>
                                 <PollIcon />
-                            </span>
+                            </div>
                             <p className="text-outer-space-500 font-normal text-lg leading-7.5">Polls ends in 2 days</p>
                         </div>
                         <div className="space-y-4 mx-5">
