@@ -15,7 +15,7 @@ const AboutContent = () => {
                         </div>
                         <div className="sm:w-8/12 px-3 sm:px-10 w-full pt-33 pb-12 space-y-5 sm:space-y-17">
                             <div className="space-y-5 sm:space-y-11">
-                                <div className="px-4 sm:px-33 flex items-center space-x-2 sm:space-x-5 bg-tundora-50 py-5">
+                                <div className="px-4 sm:px-33 flex items-center space-x-2 sm:space-x-5 bg-tundora-50 hover:bg-tundora-100 cursor-pointer py-5">
                                     <div>
                                         <SummaryIcon fill={"1C1C1C"} />
                                     </div>
@@ -26,7 +26,7 @@ const AboutContent = () => {
                                         It is a long established fact that a reader will be distracted by the readable
                                         content
                                     </p>
-                                    <div className="bg-tundora-50 rounded-full p-2.5 cursor-pointer">
+                                    <div className="bg-tundora-50 rounded-full p-2.5 cursor-pointer hover:bg-tundora-100">
                                         <EditIcon />
                                     </div>
                                 </div>
