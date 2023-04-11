@@ -90,7 +90,7 @@ const ProfileMainSection = () => {
                     </div>
                     <div className="bg-white w-full rounded-20 px-4 sm:px-38 pt-6.5 pb-52 flex-col flex space-y-10 sm:space-y-12 shadow-4xl">
                         <div className="flex space-x-4 items-center sm:justify-normal justify-center">
-                            <SummaryIcon />
+                            <SummaryIcon fill={"1C1C1C"} />
                             <h2 className="font-medium text-base leading-19 text-shark-550">Professional Summary</h2>
                         </div>
                         <div className="flex space-x-4 justify-between">

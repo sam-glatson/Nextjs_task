@@ -5,7 +5,6 @@ import JohnDeoImage from "@/public/assets/images/john-deo-full.png";
 import CameraIcon from "@/components/UI/CameraIcon";
 import EditIcon from "@/components/UI/EditIcon";
 import VerifiedIcon from "@/components/UI/VerifiedIcon";
-import Tab from "./tab";
 
 const Banner = () => {
     return (

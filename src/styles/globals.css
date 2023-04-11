@@ -21,7 +21,7 @@
         @apply text-abbey-500 text-base leading-19 hover:font-bold font-normal;
     }
 
-    .profile-tab >li {
+    .profile-tab li {
         @apply text-tundora-400 hover:text-woodsmoke-800 text-sm leading-17 font-semibold cursor-pointer px-1 py-2;
     }
 }
@@ -40,4 +40,12 @@
 
 .pollselection-gradient {
   background:   linear-gradient(180deg, #16BFFF 0%, #16DFFF 100%), #F1F1F1;
+}
+
+.about-gradient {
+  background:  linear-gradient(94.91deg, #16BFFF 4.54%, #16DFFF 77.35%), #16BFFF;
+}
+
+.about:hover {
+    background:  linear-gradient(94.91deg, #16BFFF 4.54%, #16DFFF 77.35%), #16BFFF;
 }

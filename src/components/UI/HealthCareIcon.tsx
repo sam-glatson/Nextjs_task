@@ -1,8 +1,16 @@
 import React from "react";
 
-const HealthCareIcon = () => {
+const HealthCareIcon = (props: any) => {
+    const { width } = props;
+
     return (
-        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+            width={`${width ? width : "21"}`}
+            height="20"
+            viewBox="0 0 21 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
             <path
                 d="M17.2497 6.98236H14.5737V10.0594H11.498V12.7353H14.575V15.8123H17.251V12.7353H20.328V10.0594H17.251L17.2497 6.98236Z"
                 fill="#A8A8A8"

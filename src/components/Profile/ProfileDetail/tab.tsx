@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import SettingsIcon from "@/components/UI/SettingsIcon";
 import EditIcon from "@/components/UI/EditIcon";
+import Link from "next/link";
 
-const Tab = () => {
+const Tab = (props: any) => {
+    const [post, setPost] = useState(1);
+    const [about, setAbout] = useState(2);
     return (
         <div className="container flex justify-center sm:justify-between items-center">
             <ul className="flex space-x-14 profile-tab">
-                <li>Post</li>
-                <li>About</li>
+                <li onClick={() => props.handelCallback(post)}>Post</li>
+                <li onClick={() => props.handelCallback(about)}>About</li>
                 <li>Friends</li>
             </ul>
             <div className="items-center space-x-7 sm:flex hidden">

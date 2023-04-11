@@ -367,6 +367,7 @@ module.exports = {
                 4.5: "9px",
                 24: "24px",
                 30: "30px",
+                17: "72px",
             },
             fontFamily: {
                 Inter: "Inter, sans-serif",
@@ -385,6 +386,7 @@ module.exports = {
                 15: "15px",
                 27: "27px",
                 7.5: "22px",
+                17.5: "18px",
             },
             borderRadius: {
                 20: "20px",
@@ -397,6 +399,7 @@ module.exports = {
                 "10xl": "1.563rem",
                 "11xl": "26px",
                 "13xl": "13px",
+                "15xl": "15px",
             },
             width: {
                 "2/4": "30%",
