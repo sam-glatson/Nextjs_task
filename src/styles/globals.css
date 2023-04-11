@@ -49,3 +49,11 @@
 .about:hover {
     background:  linear-gradient(94.91deg, #16BFFF 4.54%, #16DFFF 77.35%), #16BFFF;
 }
+
+.about:hover div > svg {
+    fill: white !important;
+}
+
+.about div >svg {
+    fill: #A8A8A8;
+}

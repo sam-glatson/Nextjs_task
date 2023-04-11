@@ -12,8 +12,6 @@ import CreativeIcon from "@/components/UI/CreativeIcon";
 import SummaryIcon from "@/components/UI/SummaryIcon";
 
 const AboutList = () => {
-    const [icon, setIcon] = useState(false);
-
     return (
         <aside>
             <div className="pt-35 pr-7 space-y-6">
@@ -27,13 +25,9 @@ const AboutList = () => {
                     </div>
                     <h5 className="font-medium text-15xl leading-17.5">Professional Summary</h5>
                 </div>
-                <div
-                    className="flex items-center space-x-4 cursor-pointer py-3 px-4 about hover:text-white text-shark-550"
-                    onMouseOver={() => setIcon(!icon)}
-                    onMouseLeave={() => setIcon(!icon)}
-                >
+                <div className="flex items-center space-x-4 cursor-pointer py-3 px-4 about hover:text-white text-shark-550">
                     <div>
-                        <PortfolioIcon width={24} fill={icon ? "white" : "#A8A8A8"} />
+                        <PortfolioIcon width={24} />
                     </div>
                     <h5 className="font-medium text-15xl leading-17.5">Work Experience</h5>
                 </div>

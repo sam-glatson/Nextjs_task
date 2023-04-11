@@ -24,7 +24,7 @@ const InfoSection = () => {
                 </div>
                 <div className="flex space-x-4">
                     <div>
-                        <BookIcon />
+                        <BookIcon fill={"#A8A8A8"} />
                     </div>
                     <p className="text-base font-normal leading-19 text-shark-500">
                         Bachelor of Science, Nursing
@@ -33,7 +33,7 @@ const InfoSection = () => {
                 </div>
                 <div className="flex items-center space-x-4">
                     <div>
-                        <HealthCareIcon />
+                        <HealthCareIcon fill={"#A8A8A8"} />
                     </div>
                     <strong className="text-shark-550 font-extrabold leading-19">Interests</strong>
                 </div>
