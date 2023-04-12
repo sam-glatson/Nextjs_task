@@ -4,7 +4,7 @@ const EditIcon = (props: any) => {
     const { fill } = props;
     return (
         <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 11.3367L3.2811 10.4057L0.89834 7.94727L0 11.3367Z" fill={`${fill ? "black" : "#585757"}`} />
+            <path d="M0 11.3367L3.2811 10.4057L0.89834 7.94727L0 11.3367Z" fill={`${fill ? fill : "#585757"}`} />
             <path
                 d="M6.3936 1.93506L1.20312 7.29297L3.91725 10.0946L9.10773 4.73674L6.3936 1.93506Z"
                 fill={`${fill ? "black" : "#585757"}`}

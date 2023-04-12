@@ -1,12 +1,12 @@
 import React from "react";
-import PostList from "./Postlist";
+import PostList from "./PostList";
 import Image from "next/image";
 import JohnDeo from "@/public/assets/images/john-deo.png";
 import PhotoIcon from "@/components/UI/PhotoIcon";
 import VideoIcon from "@/components/UI/VideoIcon";
 import ChartIcon from "@/components/UI/ChartIcon";
-import Pollist from "./Pollist";
-import Pollistselected from "./Pollistselected";
+import Pollist from "./PollList";
+import Pollistselected from "./PollListSelected";
 
 const CreatePost = () => {
     return (
@@ -17,8 +17,8 @@ const CreatePost = () => {
                     <input
                         type="text"
                         placeholder="Write something here..."
-                        id="createPost"
-                        name="createPost"
+                        id="create-post"
+                        name="create-post"
                         className="w-full bg-alabaster-500 py-2.5 rounded-14 pl-4.5 text-ellipsis"
                     />
                 </div>

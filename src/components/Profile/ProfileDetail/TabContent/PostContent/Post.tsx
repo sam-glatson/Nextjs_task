@@ -1,6 +1,6 @@
 import React from "react";
-import InfoSection from "./infosection";
-import CreatePost from "./createpost";
+import InfoSection from "./InfoSection";
+import CreatePost from "./CreatePost";
 import { motion } from "framer-motion";
 
 const Post = () => {

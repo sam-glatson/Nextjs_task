@@ -24,7 +24,7 @@ const Banner = () => {
                     </p>
                 </div>
             </div>
-            <div className="relative md:ml-7 flex flex-col md:flex-row items-center sm:space-x-12">
+            <div className="relative md:ml-7 flex flex-col md:flex-row items-center sm:space-x-12 z-11">
                 <div className="p-1 rounded-full -mt-5 md:-mt-6 bg-white w-auto shadow-5xl relative">
                     <Image
                         src={JohnDeoImage}

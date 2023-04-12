@@ -1,10 +1,9 @@
-import Head from "next/head";
 import Layout from "@/components/Layout";
 import Profile from "@/components/Profile";
 
 export default function Home() {
     return (
-        <Layout title="Pulsedin | Home">
+        <Layout title="Plusedin | Home">
             <Profile />
         </Layout>
     );

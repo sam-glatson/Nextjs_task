@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Banner from "./Banner";
 import Post from "./TabContent/PostContent/Post";
-import Tab from "./tab";
+import Tab from "./Tab";
 import AboutContent from "./TabContent/AboutContent";
 
 const ProfileDetailSection = () => {
