@@ -23,21 +23,18 @@ const PostFooter = () => {
             <hr className="mt-2.5 -mx-2 sm:-mx-6" />
             <div className="flex justify-center flex-row">
                 <div className="flex items-center space-x-2 sm:space-x-3 cursor-pointer border-r py-3 sm:py-6 px-2.5 sm:px-16">
-                    <div>
-                        <HeartIcon />
-                    </div>
+                    <HeartIcon />
+
                     <h5 className="text-sm leading-17 text-mine-shaft-500 font-semibold">Beat</h5>
                 </div>
                 <div className="flex items-center space-x-2 sm:space-x-3 cursor-pointer border-r py-3 sm:py-6 px-2.5 sm:px-16">
-                    <div>
-                        <CommandIcon />
-                    </div>
+                    <CommandIcon />
+
                     <h5 className="text-sm leading-17 text-spun-pearl-500 font-normal">Comment</h5>
                 </div>
                 <div className="flex items-center space-x-2 sm:space-x-3 cursor-pointer py-3 sm:py-6 px-2.5 sm:px-16">
-                    <div>
-                        <ShareIcon />
-                    </div>
+                    <ShareIcon />
+
                     <h5 className="text-sm leading-17 text-spun-pearl-500 font-normal">Share</h5>
                 </div>
             </div>
