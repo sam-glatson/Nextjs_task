@@ -369,6 +369,7 @@ module.exports = {
                 24: "24px",
                 30: "30px",
                 17: "72px",
+                5.5: "18px",
             },
             fontFamily: {
                 Inter: "Inter, sans-serif",

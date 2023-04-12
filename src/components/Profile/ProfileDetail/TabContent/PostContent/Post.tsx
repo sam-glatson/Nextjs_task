@@ -3,8 +3,7 @@ import InfoSection from "./infosection";
 import CreatePost from "./createpost";
 import { motion } from "framer-motion";
 
-const Post = (props: any) => {
-    const { value } = props;
+const Post = () => {
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             <section className="container pt-6 pb-4" id="Post">

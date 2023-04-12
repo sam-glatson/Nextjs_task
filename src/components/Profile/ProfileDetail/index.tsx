@@ -6,9 +6,9 @@ import AboutContent from "./TabContent/AboutContent";
 
 const ProfileDetailSection = () => {
     const [TabContent, setTabContent] = useState(1);
-    function CallBack(childData: any) {
+    const CallBack = (childData: any) => {
         setTabContent(childData);
-    }
+    };
     return (
         <section className="font-Inter">
             <div className="pt-100 font-Inter container bg-white">
