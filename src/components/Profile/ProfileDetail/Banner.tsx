@@ -49,8 +49,8 @@ const Banner = () => {
                         when distracted by the readable content
                     </p>
                     <button
-                        id="editprofile"
-                        name="editprofile"
+                        id="edit-profile"
+                        name="edit-profile"
                         className="border py-4 px-8 rounded-14 border-picton-blue-500 flex items-center mx-auto md:mx-0 font-semibold text-sm leading-17 text-black"
                     >
                         <span className="mr-4">

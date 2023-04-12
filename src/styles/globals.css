@@ -22,7 +22,7 @@
     }
 
     .profile-tab li {
-        @apply text-tundora-400 hover:text-woodsmoke-800 text-sm leading-17 font-semibold cursor-pointer px-1 py-2;
+        @apply text-tundora-400 text-sm leading-17 font-semibold cursor-pointer px-1 py-2;
     }
 }
  

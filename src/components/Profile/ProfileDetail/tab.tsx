@@ -10,13 +10,23 @@ const Tab = (props: any) => {
         <div className="container flex justify-center sm:justify-between items-center">
             <ul className="flex profile-tab space-x-3">
                 <div className="relative py-5 px-5">
-                    <li onClick={() => props.handelCallback(post)}>Post </li>
+                    <li
+                        onClick={() => props.handelCallback(post)}
+                        className={`${value == 1 ? " text-tundora-800" : null}`}
+                    >
+                        Post
+                    </li>
                     {value == 1 ? (
                         <div className="h-[3px] left-0 bg-picton-blue-500 absolute w-full bottom-0"></div>
                     ) : null}
                 </div>
                 <div className="relative py-5 px-5">
-                    <li onClick={() => props.handelCallback(about)}>About </li>
+                    <li
+                        onClick={() => props.handelCallback(about)}
+                        className={`${value == 2 ? " text-tundora-800" : null}`}
+                    >
+                        About{" "}
+                    </li>
                     {value == 2 ? (
                         <div className="h-[3px] left-0 bg-picton-blue-500 absolute w-full bottom-0"></div>
                     ) : null}
